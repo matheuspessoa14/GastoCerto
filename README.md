@@ -8,6 +8,16 @@ Este projeto foi desenvolvido como parte do meu **portfólio para vagas de está
 
 ---
 
+## 🧠 Visão de problema → solução
+
+### Problema
+Muitas pessoas não têm um controle claro de onde gastam seu dinheiro mensalmente, o que dificulta o planejamento financeiro.
+
+### Solução
+O **GastoCerto** permite registrar gastos de forma rápida e oferece um dashboard com resumos e insights, facilitando a análise e a tomada de decisão financeira.
+
+---
+
 ## 🚀 Funcionalidades
 
 ### 🔐 Autenticação
@@ -34,16 +44,6 @@ Este projeto foi desenvolvido como parte do meu **portfólio para vagas de está
 - Tema escuro
 - Layout em cards
 - UX simples e objetiva
-
----
-
-## 🧠 Visão de problema → solução
-
-### Problema
-Muitas pessoas não têm um controle claro de onde gastam seu dinheiro mensalmente, o que dificulta o planejamento financeiro.
-
-### Solução
-O **GastoCerto** permite registrar gastos de forma rápida e oferece um dashboard com resumos e insights, facilitando a análise e a tomada de decisão financeira.
 
 ---
 
@@ -91,7 +91,7 @@ O **GastoCerto** permite registrar gastos de forma rápida e oferece um dashboar
 
 - cd backend
 - python -m venv venv
-- source venv/bin/activate  # Windows: venv\Scripts\activate
+- pip install flask flask-login flask-sqlalchemy flask-cors flask-migrate python-dotenv
 - pip install -r requirements.txt
 - python run.py
 
@@ -110,5 +110,5 @@ O **GastoCerto** permite registrar gastos de forma rápida e oferece um dashboar
 
 ## 👨‍💻 Autor
 
-- Matheus Pessoa
-- Estudante de Análise e Desenvolvimento de Sistemas -> 4 período
+- Matheus Pessoa Telles
+- Estudante de Análise e Desenvolvimento de Sistemas - 4 período
